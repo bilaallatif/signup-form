@@ -86,3 +86,17 @@ form .right
     flex-direction: column;
     width: 350px;
 }
+
+#password-error
+{
+    color: red;
+}
+
+input:invalid 
+{
+    border-color: red;
+}
+input:valid
+{
+    border-color: green;
+}
