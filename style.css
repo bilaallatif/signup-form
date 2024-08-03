@@ -60,7 +60,7 @@ body {
 {
     background-color: aqua;
     height: 800px;
-    padding: 25px 50px;
+    padding: 10px 50px;
 }
 
 .right .bottom
@@ -68,4 +68,18 @@ body {
     background-color: blueviolet;
     height: 100%;
     padding: 25px 50px;
+}
+
+.form-area .form-container 
+{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+}
+
+.input-pair 
+{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
 }
